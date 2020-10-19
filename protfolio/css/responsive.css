@@ -1,0 +1,132 @@
+/*Normaliize css*/
+/*
+#primary Color: #6c15c3 ;
+Secondary Color: #bf44b3;
+*/
+
+@media only screen and (min-width:1200px) {
+     .btn-div{
+        margin: 0 auto;
+        width:100%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width:900px) {
+    
+    
+    .service-item{
+        overflow: hidden;
+    }
+    .icon-list ul li{
+        padding: 0 10px;
+    }
+    .btn-div{
+        margin: 0 auto;
+        width:100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:600px) {
+     .btn-div{
+        margin: 0 auto;
+        width:100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:420px) {
+     .btn-div{
+        margin: 0 auto;
+        width:100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:320px && max-width:419px) {
+    #mainmenu {
+        margin-top: 0px;
+        height: 520px;
+    }
+
+    #banner {
+        height: 520px;
+    }
+
+    .navbar-brand {
+        width: 100px !important;
+       
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+
+    }
+
+    .navbar-nav {
+        background: #6c15c3;
+        color: #000;
+        
+    }
+    .navbar-nav .nav-item:hover{
+         background: #6c15c3;
+        color: #fff;
+    }
+    .navbar-nav .nav-item:hover .nav-link{
+        color: #fff;
+    }
+    .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+
+    .navbar-toggler {
+        background-color: #6c15c3 !important;
+        width: 50px;
+        color: #000;
+        width: 40px;
+
+
+    }
+
+    .navbar-toggler-icon {
+        color: #fff;
+        /*        background: #000;*/
+        font-size: 20px;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+    }
+
+    .icon-list ul li {
+        padding: 0 10px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .details{
+        margin-top: 15px;
+    }
+    .my-skills  a{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .all_progress_bar p{
+        margin-bottom: 0;
+    }
+    .mix-controls ul li{
+        margin-bottom: 5px;
+        
+    }
+     .btn-div{
+        margin: 0 auto;
+        width:100%;
+        text-align: center;
+    }
+}

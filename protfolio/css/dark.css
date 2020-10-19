@@ -1,0 +1,31 @@
+
+body{
+    background: #0f0f0f;
+    color: #f5f5f5;
+}
+.heading{
+    color: 
+}
+.service-item{
+    background: #f4f5f6;
+}
+.service-details{
+    color: #000;
+}
+
+.mix-controls ul li,.blog-title a,.blog-title a h4:hover,.pub-by a span{
+    color:#f5f5f5;
+}
+.mix-controls ul .mixitup-control-active,.mix-controls ul li:hover{
+    color: #0f0f0f !important;
+}
+.blog-item:hover,.portfolio-item:hover {
+    box-shadow: 2px 2px 10px #f0f0f0;
+    border-radius: 5px;
+}
+.product-title{
+    color: #f0f0f0;
+}
+#services,#testimonial{
+    background:#0f0f0f; 
+}
